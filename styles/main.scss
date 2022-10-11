@@ -1,0 +1,50 @@
+:root {
+  --acsentcolor: #f97210;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.container {
+  background-color: #e5e5e5;
+  position: relative;
+  overflow: hidden;
+  padding: 115px 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.image-left,
+.image-right {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+}
+
+.image-left {
+  bottom: -35px;
+  left: -125px;
+}
+
+.image-right {
+  top: -20px;
+  right: -90px;
+}
+
+.about-title {
+  color: var(--acsentcolor);
+}
+
+.list-item-cert {
+  list-style-type: none;
+}
