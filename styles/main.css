@@ -146,8 +146,20 @@ aside {
 .about .button:hover {
   background-color: #f7962a;
 }
-.about .list-item-cert {
-  list-style-type: none;
+.about .certificates .certificates-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+.about .certificates .certificates-skills {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.about .certificates .certificates-school {
+  margin-bottom: 30px;
+  line-height: 1.4;
+  color: #959595;
 }
 
 main {
@@ -200,12 +212,21 @@ main .experience .job-position ul:last-child {
 }
 main .experience .job-position .experience-subtitle {
   font-weight: bold;
+  line-height: 1.6;
   margin-bottom: 28px;
 }
 main .experience .job-position .experience-subtitle span {
   color: var(--acsentcolor);
 }
 main .experience .job-position .period {
+  margin-top: 20px;
+  color: #959595;
+}
+main .education .education-experience-subtitle {
+  margin-bottom: 20px;
+}
+main .education .education-period {
+  margin-bottom: 20px;
   margin-top: 20px;
   color: #959595;
 }/*# sourceMappingURL=main.css.map */
